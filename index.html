@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lugrasimo&family=Lumanosimo&family=Rubik:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+    <title>Travel Agancy</title>
+  </head>
+  <body>
+    <header id="nav">
+      <nav>
+        <div>Adventure Agancy</div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">gellary</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">conatact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div></div>
+      <div>
+        Thrill & joy
+        <span>Adventure Begin</span>
+      </div>
+    </header>
+    <section>
+      <div class="feature">
+        <div>
+          <div class="front"></div>
+          <div class="back">
+            <h4>About Us</h4>
+            <span>Some Word <br />About Us</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              deserunt neque corrupti beatae dolorum doloribus dolor facilis
+              dolorem libero soluta suscipit, fugit excepturi quasi esse id
+              minus voluptatibus debitis a.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="front"></div>
+          <div class="back">
+            <h4>About Us</h4>
+            <span>Some Word <br />About Us</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              deserunt neque corrupti beatae dolorum doloribus dolor facilis
+              dolorem libero soluta suscipit, fugit excepturi quasi esse id
+              minus voluptatibus debitis a.
+            </p>
+          </div>
+        </div>
+        <div class="fixed">
+          <div class="front">
+            <h4>About Us</h4>
+            <span>Some Word <br />About Us</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              deserunt neque corrupti beatae dolorum doloribus dolor facilis
+              dolorem libero soluta suscipit, fugit excepturi quasi esse id
+              minus voluptatibus debitis a.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="front"></div>
+          <div class="back">
+            <h4>About Us</h4>
+            <span>Some Word <br />About Us</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              deserunt neque corrupti beatae dolorum doloribus dolor facilis
+              dolorem libero soluta suscipit, fugit excepturi quasi esse id
+              minus voluptatibus debitis a.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h5>Find A Adventure</h5>
+        <span>Adventure Tour Type</span>
+        <div class="icon">
+          <div>
+            <i
+              class="fa-solid fa-bag-shopping fa-2xl"
+              style="color: #f8f7f7"
+            ></i>
+            <a href="#"> Hiking</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-paw fa-2xl" style="color: #f7f7fc"></i>
+            <a href="#">Wildlife </a>
+          </div>
+          <div>
+            <i
+              class="fa-sharp fa-regular fa-fire-flame-curved fa-2xl"
+              style="color: #fcfcfd"
+            ></i>
+            <a href="#">FireCamp</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chart-area fa-2xl" style="color: #ffffff"></i>
+            <a href="#"> Caiming</a>
+          </div>
+          <div>
+            <i
+              class="fa-light fa-paper-plane fa-2xl"
+              style="color: #fafcff"
+            ></i>
+            <a href="#">AirRide</a>
+          </div>
+          <div>
+            <i
+              class="fa-sharp fa-regular fa-wagon-covered fa-2xl"
+              style="color: #ffffff"
+            ></i>
+
+            <a href="#">Cruises</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      services
+      <h3>Adventure offer</h3>
+      <div class="feature">
+        <div>
+          <i
+            class="fa-regular fa-money-bill-1 fa-xl"
+            style="color: #050505"
+          ></i>
+          <h5>Value for Money</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-gem fa-lg" style="color: #050505"></i>
+          <h5>Beatifual Places</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-laptop fa-lg" style="color: #0d0d0d"></i>
+          <h5>Fast Booking</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div>
+          <i class="fa-solid fa-people-group fa-lg" style="color: #0d0d0d"></i>
+          <h5>Support Team</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-earth-africa fa-lg" style="color: #0a0a0a"></i>
+          <h5>Persional Travel</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-map fa-lg" style="color: #0a0a0a"></i>
+          <h5>Diverse Destinational</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------Section 4--------------------------------- -->
+    <section>
+      <div>
+        <div></div>
+        <div>
+          <h5>Your Speical Your Today</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+            hic laborum sed, cupiditate architecto, praesentium dolore quisquam
+            eius vel aperiam unde nobis tempore rem, necessitatibus numquam
+            natus quasi labore assumenda!
+          </p>
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- ----------------------------------------Section5---------------------------------------- -->
+    <section>
+      <h5>Gellary</h5>
+      <span>Adventure protofill</span>
+      <div>
+        <div class="imag-2">
+          <div></div>
+          <div></div>
+        </div>
+        <div calss="image-1"></div>
+        <div calss="image-1"></div>
+        <div class="imag-2">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- ----------------------------------------Section6---------------------------------------- -->
+    <section>
+      <div class="bg">
+        <p>July 2023 26 Comment5</p>
+        <h4>Lorem ipsum dolor</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit accusamus recusandae natus delectus doloribus suscipit
+          commodi iste, praesentium deleniti distinctio, esse nemo minus,
+          consequatur fugit veniam deserunt laboriosam sit perspiciatis.
+        </p>
+        <button class="hvr-grow"><a href="#"> Read More</a></button>
+      </div>
+      <div>
+        <p>July 2023 26 Comment5</p>
+        <h4>Lorem ipsum dolor</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit accusamus recusandae natus delectus doloribus suscipit
+          commodi iste, praesentium deleniti distinctio, esse nemo minus,
+          consequatur fugit veniam deserunt laboriosam sit perspiciatis.
+        </p>
+        <button class="hvr-grow">
+          <a href="#"> Read More</a>
+        </button>
+      </div>
+      <div>
+        <p>July 2023 26 Comment5</p>
+        <h4>Lorem ipsum dolor</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit accusamus recusandae natus delectus doloribus suscipit
+          commodi iste, praesentium deleniti distinctio, esse nemo minus,
+          consequatur fugit veniam deserunt laboriosam sit perspiciatis.
+        </p>
+        <button class="hvr-grow"><a href="#"> Read More</a></button>
+      </div>
+      <div class="bg">
+        <p>July 2023 26 Comment5</p>
+        <h4>Lorem ipsum dolor</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit accusamus recusandae natus delectus doloribus suscipit
+          commodi iste, praesentium deleniti distinctio, esse nemo minus,
+          consequatur fugit veniam deserunt laboriosam sit perspiciatis.
+        </p>
+        <button class="hvr-grow"><a href="#"> Read More</a></button>
+      </div>
+    </section>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- -----------------------------------------------Section7-------------------------------------------- -->
+    <section>
+      <h4>Booking</h4>
+      <span>Choose Adventure</span>
+      <div>
+        <div>
+          <div class="img">
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #f9d801"></i>
+          </div>
+          <h5>Everast Camp Hiking</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Book Link</a>
+          <span>&dollar; 2,250</span>
+        </div>
+        <div>
+          <div class="img">
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #f9d801"></i>
+            <i class="fa-regular fa-star" style="color: #f9d801"></i>
+          </div>
+          <h5>Everast Camp Hiking</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Book Link</a>
+          <span>&dollar; 2,250</span>
+        </div>
+        <div>
+          <div class="img">
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+          </div>
+          <h5>Everast Camp Hiking</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Book Link</a>
+          <span>&dollar; 2,250</span>
+        </div>
+        <div>
+          <div class="img">
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-solid fa-star" style="color: #f9d801"></i>
+            <i class="fa-regular fa-star" style="color: #f9d801"></i>
+            <i class="fa-regular fa-star" style="color: #f9d801"></i>
+          </div>
+          <h5>Everast Camp Hiking</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#">Book Link</a>
+          <span>&dollar; 2,250</span>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------Section8------------------------------------------------- -->
+    <section>
+      <h4>Subscribe</h4>
+      <span>Join the Newsletter</span>
+      <div>
+        <input type="Email" placeholder="Your Email" />
+        <input type="button" value="Subscribe" />
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- -----------------------------------------Section9------------------------------------------------------------- -->
+    <section>
+      <h4>Contact</h4>
+      <span>Get in touch</span>
+      <div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5122761.026198915!2d10.4541193!3d51.1758057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2z2KPZhNmF2KfZhtmK2Kc!5e0!3m2!1sar!2seg!4v1690501850362!5m2!1sar!2seg"
+            height="100%"
+            width="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div>
+          <form action="#">
+            <input type="text" placeholder="Enter Your First Name" />
+            <input type="text" placeholder="Enter Your Last Name" />
+            <input type="text" placeholder="Phone" />
+            <input type="Email" placeholder="Enter Your Email" />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <!-- -----------------------------------Last Section----------------------------------------------------------------- -->
+    <section>
+      <div>
+        <span>Address</span> :Egypt,Cairo <br />
+        Lorem ipsum dolor sit <br />
+        <span>Phone</span> :+2011111111 <br />
+        <span>Email</span> :nti@gmail.com <br />
+        <a href="#">
+          <i class="fa-brands fa-twitter fa-xs" style="color: #fafcff"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-facebook fa-xs" style="color: #fafcff"></i
+        ></a>
+        <a href="">
+          <i class="fa-regular fa-envelope fa-xs" style="color: #fafcff"></i
+        ></a>
+        <a href="#nav" class="arrow"
+          ><i class="fa-solid fa-arrow-up fa-2xl" style="color: #fafcff"></i
+        ></a>
+      </div>
+    </section>
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <!-- -----------------------------------Footer----------------------------------------------------------------- -->
+    <footer>CopyRights&copy;Reversed by nti</footer>
+  </body>
+</html>
